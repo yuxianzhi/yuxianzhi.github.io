@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="HandheldFriendly" content="true">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Xianzhi Yu</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/809c2bfca6.js"></script>
+</head>
+<body>
+
+<style>
+    ul li{
+        list-style: none;
+    }
+</style>
+
+<header>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="bio">
+                <div class="avatar">
+                    <img src="assets/img/yuxianzhi.jpg" alt="">
+                </div>
+                <div class="title">
+                    <h1>Xianzhi Yu</h1>
+                    <h2>student</h2>
+                </div>
+                <div class="desc">
+                    <p>❤ Computing
+                    </p>
+                </div>
+                <div class="address">
+                    <p>Beijing, China</p>
+                </div>
+                <div class="e-mail">
+                    <p>cos_wave@163.com</p>
+                </div>
+
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav" style="margin-left:-50px">
+                    <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+                    </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#publications">Publications</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="social">
+                    <ul>
+                        <!--
+                        <li> <a href="https://facebook.com/oscarbarajastavares"><i class="fa fa-facebook-square" aria-hidden="true"></i> </a> </li>
+                        <li><a href="https://twitter.com/"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                        -->
+                        <li><a href="https://github.com/yuxianzhi"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="content">
+                <div class="title">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
+                        <h2>INTERESTS</h2>
+                        <div class="item">
+                            <h4>Heterogeneous Computing(AMD GPU, NVIDIA GPU, Intel KNC/KNL)</h4>
+                            <h4>Distributed Computing(MPI, Spark)</h4>
+                            <h4>TOP500 HPL Heterogeneous Optimization</h4>
+			    <h4>High Performance Math Library Optimization(autotuning)</h4>
+                            <h4>Deep Learning Performance Optimization(Distributed training & Inference)</h4>
+                            <h4>Deep Learning NLP(Sentiment Analysis)</h4>
+                            <h4>Graph Computing:Semi-supervised Learning(Google Expander*), Graph Embedding(node2vec)</h4>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="title">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
+                        <h2>EXPERIENCE</h2>
+                        <div class="item">
+                            <h3>Intern/Project Cooperation @ Sugon <span>Mar. 2018 - May 2019</span> </h3>
+                            <p>The work is about large scale heterogeneous parallel optimization.
+                                I'm responsible for linear system benchmark HPL optimization,
+                                that is TOP500 supercomputer ranking standards.
+                                Heterogeneous HPL(HHPL) is proposed to optimize data transmission bottleneck(memory access, PCI-E transmission, inter-node network).
+                                HHPL surpasses NVIDIA's official closed source binary program, and it is cross-platform(AMD GPU, NVIDIA GPU, etc).
+                                Sugon E-prototype supercomputer(512 nodes, 2CPU+1GPU) HPL efficiency is 71%, and rank 9th in <a href="http://www.hpc100.cn/top100/17/">2018 China TOP100</a>.
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <h3>Intern @ TensorStack(Beijing YunGe Technology) <span>Mar. 2017 - Aug. 2017</span> </h3>
+                            <p>Mainly responsible for distributed data preprocessing and graph computing.
+                                Building a data preprocessing pipeline by using Apache Spark and tf-transform framework in deep learning;
+                                Using CNN to do sentiment analysis. Chinese word segmentation, building vector from word and convolution neural network.
+                                Using label propagation algorithm to solve some semi-supervised learning problem, and implementing Google Expander* algorithm.
+                                There are some work about how to encode a graph to vector, and have a knowledge about node2vec(DeepWalk, SDNE, node2vec).
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <h3>Intern @ Torray Networks <span>Oct. 2015 - Aug. 2016</span> </h3>
+                            <p>Mainly do high performance computing optimization. Using NVIDIA GPU to do cryo-EM image reconstruction program Relion acceleration.
+                                An adaptive adjustment algorithm is proposed to solve the GPU memory capacity.
+                                Single NVIDIA Titan 1080 GPU can replace 56 CPU cores at the same performance request.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div class="title">
+                    <i class="fa fa-graduation-cap" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="education">
+                        <h2>EDUCATION</h2>
+                        <div class="item">
+                            <h3>Master, Computer System Architecture @ Institute of Computing Technology  <span>2016 - 2019</span></h3>
+                            <p>
+                                High Performance Computing Center, Institute of Computing Technology, University of Chinese Academy of Sciences<br>
+                                GPA: 89.25/100<br>
+                                Major: Deep Learning Performance Optimization/Computer Architecture Optimization<br>
+                                Advisor: Prof. Guangming Tan<br>
+                            </p>
+                        </div>
+
+                        <div class="item">
+                            <h3>Bachelor, Computer Science and Technology @ Shandong University <span>2012 - 2016</span> </h3>
+                            <p>
+                                Computer Science and Technology Elite Class<br>
+                                GPA: 92/100<br>
+                                Major: Heterogeneous Computing/Distributed Computing<br>
+                                Advisor: Prof. Weiguo Liu(2017 Gordon Bell Prize Winner)<br>
+                                Thesis: Using heterogeneous high performance computing unified framework OpenCL to accelerate biological big data calculation <br>
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="title">
+                    <i class="fa fa-trophy" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="awards">
+                        <h2>Scholarships and Awards</h2>
+                        <div class="item">
+                            <li>National Scholarship(5%) <span>Oct. 2018</span> </li>
+                            <li>Schlumberger Master Scholarship(5%) <span>Oct. 2017</span> </li>
+                            <li>University of Chinese Academy of Sciences Scholarship(2%) <span>Oct. 2016</span> </li>
+                            <li>Shandong University First Prize Scholarship(2%) <span>Oct. 2013</span> </li>
+                            <li>National Scholarship(5%) <span>Oct. 2013</span> </li>
+                            <li>University of Chinese Academy of Sciences Excellent Student(5%) <span>Oct. 2016</span> </li>
+                            <li>Shandong University Excellent Student(5%) <span>Oct. 2013</span> </li>
+                        </div>
+
+                        <div class="item">
+                            <li>PAC National Parallel Application Contest(AI), Third Prize <span>Oct. 2017</span> </li>
+                            <li>PAC National Parallel Application Contest(optimization), Third Prize <span>Oct. 2016</span> </li>
+                            <li>PAC National Parallel Application Contest(application), Third Prize <span>Oct. 2015</span> </li>
+                            <li>ChinaVis Data Challenge, Excellent Prize <span>July 2015</span> </li>
+                            <li>ASC Student Supercomputer Challenge, First Prize <span>May 2015</span> </li>
+                            <li>China Undergraduate Mathematical Contest in Modeling, Fist Prize <span>Nov. 2014</span> </li>
+                            <li>Certification Cup Mathematical Modeling Preliminary Competition, Second Prize <span>May  2014</span> </li>
+                            <li>National College Mathematical Modeling Competition(MCM/ICM), Third Prize <span>Feb. 2014</span> </li>
+                            <li>National College Mathematics Competition, Third Prize <span>Oct. 2013</span> </li>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="title">
+                    <i class="fa fa-bookmark" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
+                        <h2>Research Projects</h2>
+                        <div class="item">
+                            <h3>Chinese Academy of Sciences Advanced Computing Project @ Platzi <span>Aug. 2018 - current</span> </h3>
+                            <h4>TOP500 HPL heterogeneous optimization principal</h4>
+                            <p>Building a 300Pflops supercomputer with 10000+ nodes(Hygon CPU + DCU*4).
+                                Responsible for the large-scale heterogeneous parallel optimization of the TOP500 linear system solution benchmark HPL.
+                                proposing a platform oriented parallel algorithm and solving the problem of scalability.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>National "13th Five-Year" High Performance Computing Project - Sugon Exascale prototype supercomputer <span>Dec. 2017 - June 2018</span> </h3>
+                            <h4>TOP500 HPL heterogeneous optimization principal</h4>
+                            <p>Building a 3Pflops supercomputer with 512 nodes(Hygon CPU*2 + AMD Vega20).
+                                Responsible for large-scale heterogeneous parallel optimization of TOP500 linear system solution benchmark HPL.
+                                Heterogeneous HPL(HHPL) is proposed to optimize data transmission bottleneck(memory access, PCI-E transmission, inter-node network).
+                                HHPL surpasses NVIDIA's official closed source binary program, and it is cross-platform(AMD GPU, NVIDIA GPU, etc).
+                                Sugon E-prototype supercomputer(512 nodes, 2CPU+1GPU) HPL efficiency is 71%.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>Deep learning optimization <span>June. 2017 - Dec. 2017</span> </h3>
+                            <h4>matrix multiply and convolution optimization</h4>
+                            <p>With the knowledge of accelerator architecture(AMD Vega10 GPU), mainly do some deep learning operator(matrix multiply and convolution) optimization from the assembly level.
+                                Based on the theory of hardware concurrent analysis model and register pipeline strategy.
+                                The performance of small size convolution(1x1, 5x5, 7x7) can exceed AMD official deep learning library MIOpen 5%-10%.
+                                Half precision GEMM performance can achieve 97% of theoretical peak performance.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>Sentiment Analysis <span>July 2017 - Aug. 2017</span> </h3>
+                            <p>Using convolution neural network to do sentiment analysis for Chinese consumer reviews(Word Segmentation + Word2vec + CNN). Mining user attitudes about payment method.
+                                Model is used to participate in the PAC national parallel application challenge(AI) contest and get a third prize.
+                            </p>
+                        </div>
+                        <div class="item">
+                            <h3>Bioinformatics algorithms heterogeneous optimization <span>July 2014 - July 2016</span> </h3>
+                            <h4>Cryo-EM image reconstruction Relion optimization</h4>
+                            <p>Summer visiting student in Institute for Interdisciplinary Information Sciences of Tsinghua University.
+                                Under the guidance of Assistant Prof. Wei Xu, start to do cryo-EM image reconstruction Relion performance optimization,
+                                including efficient task distribution, MPI communication optimization, load balance and fault tolerance.
+                            </p>
+                            <h4>Smith-Waterman algorithm cross platform optimization</h4>
+                            <p>Implement cross platform(Intel KNC, NVIDIA GPU) acceleration by using OpenCL. That is the fastest cross platform implementation of sequence alignment.
+                                Compare the performance of OpenCL implementation and the fastest CUDA implementation to make a conclusion about how to do heterogeneous optimization.
+                            </p>
+                            <h4>heuristics biological gene sequence alignment algorithm Blast parallel on Intel Xeon Phi</h4>
+                            <p>mainly do biological gene sequence alignment acceleration, including Smith-Waterman algorithm and Blast algorithm on Intel KNC coprocessor(multi-core + SIMD).
+                                The performance of parallel algorithm has weak scalability on multi-core device with the help of multi-core and SIMD.
+                            </p>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="title">
+                    <i class="fa fa-book" aria-hidden="true"></i>
+                    <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="publications">
+                        <h2>Publications</h2>
+                        <div class="item">
+                            <li>XMapper - A Parallel Full Comprehensive DNA Read Mapping Algorithm Based on Intel Xeon and Xeon Phi Heterogeneous Architecture，CCF HPC China 2015</li>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+</body>
+</html>
