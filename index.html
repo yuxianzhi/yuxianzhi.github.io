@@ -191,7 +191,7 @@
                         <div class="item">
                             <h3>Chinese Academy of Sciences Advanced Computing Project <span>June 2018 - current</span> </h3>
                             <h4>TOP500 HPL heterogeneous optimization principal</h4>
-                            <p>Building a 300Pflops supercomputer with 10000+ nodes(Hygon CPU + DCU*4).
+                            <p>Building a 300Pflops supercomputer.
                                 Responsible for the large-scale heterogeneous parallel optimization of the TOP500 linear system solution benchmark HPL.
                                 proposing a platform oriented parallel algorithm and solving the problem of scalability.
                             </p>
@@ -212,7 +212,7 @@
                             <h4>matrix multiply and convolution optimization</h4>
                             <p>With the knowledge of accelerator architecture(AMD Vega10 GPU), mainly do some deep learning operator(matrix multiply and convolution) optimization from the assembly level.
                                 Based on the theory of hardware concurrent analysis model and register pipeline strategy.
-                                The performance of small size convolution(1x1, 5x5, 7x7) can exceed AMD official deep learning library MIOpen <a href="https://bitbucket.org/yuxianzhi/miopen/convolution">5%-10%</a>.<br>
+                                The performance of small size convolution(1x1, 5x5, 7x7) can exceed AMD official deep learning library MIOpen <a href="https://bitbucket.org/yuxianzhi/miopen/src/93a302c26545f333f6fd68f888e143e75a925556/convolution/?at=master">5%-10%</a>.<br>
                                 Half precision GEMM(<a href="https://bitbucket.org/yuxianzhi/hgemm/">hgemm</a>) performance can achieve 97% of theoretical peak performance.
                             </p>
                         </div>
@@ -234,8 +234,8 @@
 			        That is the fastest cross platform implementation of sequence alignment.
                                 Compare the performance of OpenCL implementation and the fastest CUDA implementation to make a conclusion about how to do heterogeneous optimization.
 				This work has been further expanded during the master period,
-			       	and the low level optimization of AMD Vega architecture has been done.
-				You can see it from <a href="https://bitbucket.org/yuxianzhi/swhybrid_opencl/">my bitbucket</a>.
+			       	and the low level optimization of AMD Vega architecture has been done. We can achieve 270GCUPS on 12.5Tflops AMD Vega10(100GCUPS on 4Tflops NVIDIA Geforce GTX780).
+				You can see it from <a href="https://bitbucket.org/yuxianzhi/">my bitbucket</a>.
                             </p>
                             <h4>heuristics biological gene sequence alignment algorithm Blast parallel on Intel Xeon Phi</h4>
                             <p>Mainly do biological gene sequence alignment acceleration, including Smith-Waterman algorithm and Blast algorithm on Intel KNC coprocessor(multi-core + SIMD + cache).
