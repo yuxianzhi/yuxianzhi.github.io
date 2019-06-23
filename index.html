@@ -26,10 +26,10 @@
                 </div>
                 <div class="title">
                     <h1>Xianzhi Yu</h1>
-                    <h2>student</h2>
+                    <h2>engineer</h2>
                 </div>
                 <div class="desc">
-                    <p>❤ 5 years+ parallel computing and performance tunning
+                    <p>❤ 6 years+ parallel computing and performance tunning
                     </p>
                 </div>
                 <div class="address">
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="desc">
-                    <p><i>Last update: 2019.2.18</i></p>
+                    <p><i>Last update: 2019.6.23</i></p>
                 </div>
             </div>
         </div>
@@ -87,12 +87,11 @@
                         <h2>INTERESTS</h2>
                         <div class="item">
                             <h4>Heterogeneous Computing(AMD GPU, NVIDIA GPU, Intel KNC/KNL)</h4>
-                            <h4>Distributed Computing(MPI, Spark)</h4>
-			    <h4>Data Transmission Optimization(register<- bus ->memory, CPU<- PCI-E ->GPU, node<- network ->node)</h4>
-                            <h4>TOP500 HPL Heterogeneous Optimization</h4>
-			    <h4>High Performance Math Library Optimization(autotuning)</h4>
-                            <h4>Deep Learning Performance Optimization(Distributed training & Inference)</h4>
-                            <h4>Deep Learning NLP(Sentiment Analysis)</h4>
+                            <h4>Distributed Computing(50000 GPUs parallel optimization experience)</h4>
+                            <h4>TOP500 HPL Heterogeneous Optimization(leading position)</h4>
+			    <h4>High Performance Math Library Optimization(leading position)</h4>
+                            <h4>Deep Learning Inference Performance Optimization(leading position)</h4>
+                            <h4>Deep Learning Sentiment Analysis</h4>
                             <h4>Graph Computing:Semi-supervised Learning(Google Expander*), Graph Embedding(node2vec)</h4>
                         </div>
                     </section>
@@ -103,7 +102,7 @@
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="experience">
                         <h2>EXPERIENCE</h2>
                         <div class="item">
-                            <h3>Intern/Project Cooperation @ Sugon <span>Mar. 2018 - May 2019</span> </h3>
+                            <h3>Intern/Project Cooperation @ Sugon <span>Mar. 2018 - June 2019</span> </h3>
                             <p>The work is about large scale heterogeneous parallel optimization.
                                 I'm responsible for linear system benchmark HPL optimization,
                                 that is TOP500 supercomputer ranking standards.
@@ -111,6 +110,7 @@
 				<a href="https://github.com/yuxianzhi/hhpl">HHPL's efficiency is 90.7%, and surpasses NVIDIA's official closed source binary program 12%</a>,
 			       	and it is cross-platform(AMD GPU, NVIDIA GPU, Hygon DCU, etc).
                                 Sugon E-prototype supercomputer(512 nodes, 2CPU+1GPU) HPL efficiency is 71%, and rank 9th in <a href="http://www.hpc100.cn/top100/17/">2018 China TOP100</a>.
+				Sugon advanced computing supercomputer surpasses TOP500 NO.1 Summit system at <a href="https://www.top500.org/lists/2019/06/">2019.6.</a>.
                             </p>
                         </div>
 
@@ -195,27 +195,26 @@
                     <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="projects">
                         <h2>Research Projects</h2>
                         <div class="item">
-                            <h3>Chinese Academy of Sciences Advanced Computing Project <span>June 2018 - current</span> </h3>
+                            <h3>Chinese Academy of Sciences Advanced Computing Project <span>June 2018 - June 2019</span> </h3>
 			    <p>
 			    <b>TOP500 HPL heterogeneous optimization principal</b><br>
-                                Building a 300Pflops supercomputer.
-                                Responsible for the large-scale heterogeneous parallel optimization of the TOP500 linear system solution benchmark HPL.
-                                proposing a platform oriented parallel algorithm and solving the problem of scalability.
+                                Advanced computing supercomputer's theoretical performance is 300PFLOPS with 10000+ nodes(Hygon CPU*1 + AMD Vega20*4). That is the biggest heterogeneous supercomputer at present.
+                                Responsible for the large-scale heterogeneous parallel optimization of the TOP500 linear system solution benchmark HPL. Solving the scalabilty problem of parallel application runing on 50000 GPUs.
+                                Proposing a platform oriented parallel algorithm and solving the problem of scalability.
 				Providing a performance optimization experience toolkit for other supercomputer applications.
 			    </p>
                         </div>
                         <div class="item">
                             <h3>National "13th Five-Year" High Performance Computing Project - Sugon Exascale prototype supercomputer <span>June 2016 - June 2018</span> </h3>
 			    <p><b>TOP500 HPL heterogeneous optimization principal</b><br>
-                                Building a 3Pflops supercomputer with 512 nodes(Hygon CPU*2 + AMD Vega20).
+                                Sugon E-prototype supercomputer theoretical performance is 3PFLOPS with 512 nodes(Hygon CPU*2 + AMD Vega20).
                                 Responsible for large-scale heterogeneous parallel optimization of TOP500 linear system solution benchmark HPL.
                                 Heterogeneous HPL(HHPL) is proposed to optimize data transmission bottleneck(memory access, PCI-E transmission, inter-node network).
-				<a href="https://github.com/yuxianzhi/hhpl">HHPL's efficiency is 90.7%, and surpasses NVIDIA's official closed source binary program 12%</a>,
+				<a href="https://github.com/yuxianzhi/hhpl">HHPL's efficiency is 90.7%, and surpasses NVIDIA's official closed source binary program 9%</a>,
 			       	and it is cross-platform(AMD GPU, NVIDIA GPU, Hygon DCU, etc).
                                 Sugon E-prototype supercomputer(512 nodes, 2CPU+1GPU) HPL efficiency is 71%.<br>
                                 In view of E-prototype supercomputer HPL optimization experience, we build a model to ananylze HPL performance for exascale supercomputer,
-			       	give some exascale supercompter system design advice.
-				Which configuration is the best choice for exascale supercomputer. We also build a performance prediction model, and have test it on our E-prototype supercomputer.<br>
+				give some exascale supercompter system design advice.<br> 
 				HPL optimization experience also give other supercomputer applications parallel suggestions.
                             </p>
                         </div>
@@ -225,12 +224,13 @@
                                 With the knowledge of accelerator architecture(AMD Vega10 GPU), mainly do some deep learning operator(matrix multiply and convolution) optimization from the assembly level.
                                 Based on the theory of hardware concurrent analysis model and register pipeline strategy.
                                 <a href="https://bitbucket.org/yuxianzhi/miopen/src/93a302c26545f333f6fd68f888e143e75a925556/convolution/?at=master">The performance of small size convolution(1x1, 5x5, 7x7) can exceed AMD official deep learning library MIOpen 5%-10%</a>.<br>
-                                Half precision GEMM(<a href="https://bitbucket.org/yuxianzhi/hgemm/">hgemm</a>) performance can achieve 97% of theoretical peak performance.
+				<a href="https://bitbucket.org/yuxianzhi/hgemm/">Half precision GEMM(hgemm) performance can achieve 95% of theoretical peak performance.</a>
                             </p>
                         </div>
                         <div class="item">
                             <h3>Sentiment Analysis <span>July 2017 - Aug. 2017</span> </h3>
-                               Using convolution neural network to do sentiment analysis for Chinese consumer reviews(Word Segmentation + Word2vec + CNN). Mining user attitudes about payment method.
+			    <p>
+                                Using convolution neural network to do sentiment analysis for Chinese consumer reviews(Word Segmentation + Word2vec + CNN). Mining user attitudes about payment method.
                                 Model is used to participate in the PAC national parallel application challenge(AI) contest and get a third prize.
                             </p>
                         </div>
